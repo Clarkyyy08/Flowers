@@ -1983,3 +1983,34 @@ body {
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .flower {
+    transform: scale(0.6);
+    bottom: 5vmin;
+  }
+  .flower__leaf {
+    width: 6vmin;
+    height: 8vmin;
+  }
+  .flower__leaf--4 {
+    width: 6vmin;
+    height: 6vmin;
+  }
+  .flower__white-circle {
+    width: 7vmin;
+    height: 3vmin;
+    left: -2.5vmin;
+    top: -2vmin;
+  }
+  .flower__light {
+    width: 0.8vmin;
+    height: 0.8vmin;
+  }
+  .flower__line {
+    height: 50vmin;
+  }
+  .bubbles {
+    display: none;
+  }
+}
